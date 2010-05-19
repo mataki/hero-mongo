@@ -1,3 +1,5 @@
-class Project < ActiveRecord::Base
-  attr_accessible :name
+class Project
+  include MongoMapper::Document
+
+  key :name, String
 end
