@@ -1,0 +1,45 @@
+--- 
+dependencies: 
+  mongo_mapper: 
+    group: 
+    - :default
+    version: ">= 0"
+    require: 
+    - mongo_mapper
+  rails: 
+    group: 
+    - :default
+    version: = 2.3.5
+    require: []
+
+specs: 
+- rake: 
+    version: 0.8.7
+- activesupport: 
+    version: 2.3.5
+- rack: 
+    version: 1.0.1
+- actionpack: 
+    version: 2.3.5
+- actionmailer: 
+    version: 2.3.5
+- activerecord: 
+    version: 2.3.5
+- activeresource: 
+    version: 2.3.5
+- bson: 
+    version: "1.0"
+- jnunemaker-validatable: 
+    version: 1.8.4
+- mongo: 
+    version: "1.0"
+- plucky: 
+    version: 0.1.1
+- mongo_mapper: 
+    version: 0.7.6
+- rails: 
+    version: 2.3.5
+hash: 2c9fe694b73629209bea5f71f409a00816aa5724
+sources: 
+- Rubygems: 
+    uri: http://gemcutter.org

@@ -1,6 +1,6 @@
 # include at least one source and the rails gem
 source :gemcutter
-gem 'rails', '~> 2.3.5', :require => nil
+gem 'rails', '2.3.5', :require => nil
 gem 'mongo_mapper', :require => "mongo_mapper"
 
 # Devise 1.0.2 is not a valid gem plugin for Rails, so use git until 1.0.3
